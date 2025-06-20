@@ -8,6 +8,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import NotFound from './components/NotFound';
 import Footer from './components/Footer/Footer';
+import Customers from './pages/customers';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
+          <Route path='/customers' element={<Customers /> } />
         </Routes>
       <div className="container-fluid">
       </div>

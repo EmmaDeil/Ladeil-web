@@ -27,7 +27,7 @@ const Home = () => {
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="./img1.jpg" className="d-block w-100" alt="Nature 1" />
+            <img src="./img1.jpg" className="d-block w-100" alt="Nature 1" style={{ height: "540px", objectFit: "cover" }} />
             <div className="carousel-caption d-none d-md-block">
               <div class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4">
                 <div class="flex flex-col gap-2 text-center">
@@ -46,7 +46,7 @@ const Home = () => {
             </div>
           </div>
           <div className="carousel-item">
-            <img src="./img2.jpg" className="d-block w-100" alt="Mountain" />
+            <img src="./img2.jpg" className="d-block w-100" alt="Mountain" style={{ height: "540px", objectFit: "cover" }} />
             <div className="carousel-caption d-none d-md-block">
               <div class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4">
                 <div class="flex flex-col gap-2 text-center">
@@ -65,7 +65,7 @@ const Home = () => {
             </div>
           </div>
           <div className="carousel-item">
-            <img src="./img3.jpg" className="d-block w-100" alt="Forest" />
+            <img src="./img3.jpg" className="d-block w-100" alt="Forest" style={{ height: "540px", objectFit: "cover" }} />
             <div className="carousel-caption d-none d-md-block">
               <div class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4">
                 <div class="flex flex-col gap-2 text-center">

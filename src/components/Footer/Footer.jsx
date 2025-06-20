@@ -9,10 +9,10 @@ const Footer = () => {
           <div className="flex max-w-[960px] flex-1 flex-col">
             <footer className="flex flex-col gap-3 px-5 py-1 text-center @container">
               <div className="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around">
-                <a className="text-[#49749c] text-base font-normal leading-normal min-w-40" href="#">About Us</a>
-                <a className="text-[#49749c] text-base font-normal leading-normal min-w-40" href="#">Contact</a>
-                <a className="text-[#49749c] text-base font-normal leading-normal min-w-40" href="#">Privacy Policy</a>
-                <a className="text-[#49749c] text-base font-normal leading-normal min-w-40" href="#">Terms of Service</a>
+                <a className="text-[#49749c] text-base font-normal leading-normal min-w-40 foot" href="#">About Us</a>
+                <a className="text-[#49749c] text-base font-normal leading-normal min-w-40 foot" href="#">Contact</a>
+                <a className="text-[#49749c] text-base font-normal leading-normal min-w-40 foot" href="#">Privacy Policy</a>
+                <a className="text-[#49749c] text-base font-normal leading-normal min-w-40 foot" href="#">Terms of Service</a>
               </div>
               <p className="text-[#49749c] text-base font-normal leading-normal">© 2024 Facility Management Co. All rights reserved.</p>
             </footer>
