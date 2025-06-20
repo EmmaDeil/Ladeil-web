@@ -54,13 +54,13 @@ const Navbar = () => (
             <Link className="nav-link active" to="/" aria-current="page">Services</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/about">About</Link>
+            <Link className="nav-link" to='/about'>About</Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/contact">Contact</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/customers">Customers</Link>
+            <Link className="nav-link" to='/customers'>Customers</Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/pricing">Pricing</Link>

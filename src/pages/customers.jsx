@@ -1,6 +1,6 @@
 import React from 'react'
 
-const customers = () => {
+const Customers = () => {
   return (
     <div>
       <div class="px-40 flex flex-1 justify-center py-5">
@@ -105,4 +105,4 @@ const customers = () => {
   )
 }
 
-export default customers
+export default Customers;

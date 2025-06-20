@@ -20,8 +20,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/customers" element={<Customers />} />
           <Route path="*" element={<NotFound />} />
-          <Route path='/customers' element={<Customers /> } />
         </Routes>
       <div className="container-fluid">
       </div>
