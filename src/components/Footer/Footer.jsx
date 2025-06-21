@@ -14,6 +14,12 @@ const Footer = () => {
                 <a className="text-[#49749c] text-base font-normal leading-normal min-w-40 foot" href="#">Privacy Policy</a>
                 <a className="text-[#49749c] text-base font-normal leading-normal min-w-40 foot" href="#">Terms of Service</a>
               </div>
+              <div className="my-2">
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="mx-2"><i className="bi bi-twitter" style={{fontSize: 22}}></i></a>
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="mx-2"><i className="bi bi-facebook" style={{fontSize: 22}}></i></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="mx-2"><i className="bi bi-linkedin" style={{fontSize: 22}}></i></a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="mx-2"><i className="bi bi-instagram" style={{fontSize: 22}}></i></a>
+              </div>
               <p className="text-[#49749c] text-base font-normal leading-normal">© 2024 Facility Management Co. All rights reserved.</p>
             </footer>
           </div>

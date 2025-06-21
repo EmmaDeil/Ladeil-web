@@ -248,7 +248,7 @@ const SigninModal = ({ show, onClose, onAdminSuccess }) => {
   );
 };
 
-const Navbar = () => {
+const Navbar = ({ SigninModalProps }) => {
   const [authMode, setAuthMode] = useState("default"); // 'default', 'signin', 'signup'
   const [showSignup, setShowSignup] = useState(false);
   const [showSignin, setShowSignin] = useState(false);
@@ -352,10 +352,7 @@ const Navbar = () => {
       <SigninModal
         show={showSignin}
         onClose={handleCloseModals}
-        onAdminSuccess={() => {
-          // Handle admin login success (e.g., redirect to admin dashboard)
-          console.log("Admin logged in");
-        }}
+        onAdminSuccess={SigninModalProps?.onAdminSuccess}
       />
     </div>
   );
