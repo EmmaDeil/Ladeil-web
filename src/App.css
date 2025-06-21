@@ -10,3 +10,41 @@
   color: black !important;
   text-decoration: none !important;
 }
+
+@keyframes gentle-float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-16px); }
+  100% { transform: translateY(0); }
+}
+
+.plan-float {
+  animation: gentle-float 3s ease-in-out infinite;
+}
+.plan-float-delay-1 {
+  animation-delay: 0.5s;
+}
+.plan-float-delay-2 {
+  animation-delay: 1s;
+}
+
+@keyframes slide-horizontal {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.features-slider, .benefits-slider {
+  overflow: hidden;
+  position: relative;
+}
+
+.features-slider-inner, .benefits-slider-inner {
+  display: flex;
+  width: max-content;
+  animation: slide-horizontal 100s linear infinite;
+}
+
+/* Duplicate the cards for seamless infinite effect */
+.features-slider-inner > *, .benefits-slider-inner > * {
+  flex: 0 0 auto;
+  margin-right: 1rem;
+}

@@ -103,6 +103,6 @@ const Customers = () => {
         </div>
     </div>
   )
-}
+};
 
-export default Customers;
+export default Customers
